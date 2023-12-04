@@ -13,6 +13,8 @@ $(document).ready(function(){
 
 	})
 
+})
+
 $(document).ready(function(){
 
 	$("#lista").on('click', 'li', function(){
@@ -20,4 +22,5 @@ $(document).ready(function(){
 		$(this).toggleClass("feito");
 
 	})
+
 })
