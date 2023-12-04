@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
 
 	$("#botao").click(function(){
 
@@ -13,10 +13,11 @@ $(function(){
 
 	})
 
-	$("#item-lista").click(function(){
+$(document).ready(function(){
+
+	$("#lista").on('click', 'li', function(){
 
 		$(this).toggleClass("feito");
 
 	})
-
 })
